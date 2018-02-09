@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+html {
+  max-width: 1920px;
+  background-image: url(img/background.png);
+}
+
+body {
+  max-width: 1920px;
+  background-image: url(img/header.png);
+  background-position: center;
+  position: relative;
+  height: 297px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.nav .login {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.nav .login div p {
+  display: inline;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0 10px 0 40px;
+}
+
+.nav .login div img {
+  position: absolute;
+  margin: 0 0 0 10px;
+}
+
+.nav ul {
+  text-align: center;
+  margin: 0 50px 0 0;
+}
+
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 14px;
+  color: #cbea9f;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 0 20px;
+}
+
+.logo-phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo-phone .phone a {
+  width: 234px;
+  height: 22px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 31.56px;
+  padding-left: 25px;
+}
+
+.callback {
+  position: relative;
+  left: 1010px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 29px;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  margin: 5px 0;
+}
+
+.callback p {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 63px;
+  box-shadow: 0 0 27px rgba(160, 160, 160, 0.75);
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin-top: 30px;
+}
+
+.search input {
+  width: 750px;
+  height: 35px;
+  background-color: #eaeaea;
+  margin: 13px 0 15px 15px;
+  background-image: url(img/search.png);
+  background-repeat: no-repeat;
+  background-position-x: 686px;
+  border: 1px solid #ffffff;
+}
+
+.search .add-basket {
+  display: flex;
+  flex-direction: row;
+  width: 358px;
+  height: 63px;
+  background-color: #eaeaea;
+  opacity: 0.5;
+}
+
+.search .add-basket img {
+  padding: 17px 30px 18px 45px;
+}
+
+.search .add-basket p {
+  width: 186px;
+  height: 17px;
+  color: #aaaaaa;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1220px;
+  margin: 15px auto;
+  height: 398px;
+  box-shadow: 0 6px 21px rgba(160, 160, 160, 0.75);
+  background-color: #ffffff;
+}
+
+section .arrow-l {
+  position: absolute;
+  margin: 144px 1156px 204px 14px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.categories h2 {
+  position: absolute;
+  margin: 24px 781px 246px 140px;
+  width: 249px;
+  height: 128px;
+  color: #fd8d33;
+  font-family: Roboto;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.categories>p {
+  position: absolute;
+  margin: 181px 707px 187px 138px;
+  width: 325px;
+  height: 30px;
+  color: #fd8d33;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.categories #button {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 263px;
+  height: 73px;
+  background-color: #6acc22;
+  margin: 279px 0 46px 138px;
+}
+
+.categories #button p {
+  text-align: center;
+  align-items: center;
+  width: 123px;
+  height: 26px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.baner {
+  position: absolute;
+  margin: 0 0 0 531px;
+}
+
+section .arrow-r {
+  position: absolute;
+  margin: 144px 11px 204px 1159px;
+  }
+
+@media screen and (max-width: 840px) {
+  .burger-menu {
+    position: fixed;
+    display: block;
+    height: 18px;
+    width: 40px;
+    background: url(img/burger.png) no-repeat 98% center;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  header .nav ul {
+    overflow: hidden;
+    margin: 0;
+    height: 0;
+}
+
+  header .nav ul.open {
+    height: auto;
+    margin: 0;
+}
+
+  header .nav ul li {
+    text-align: center;
+    margin: 0;
+    display: grid;
+    margin: 5px 0 0 0;
+    padding: 10px 0 10px 0;
+}
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-phone {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-phone .phone {
+    margin-top: 30px;
+  }
+
+  .callback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
